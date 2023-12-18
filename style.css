@@ -1,0 +1,26 @@
+.timer {
+
+    font-size: 150px;
+}
+body {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btnContainer {
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+.timer {
+    font-size: 80px;
+    }
+.container{
+    width: 95%;
+    }
+}
